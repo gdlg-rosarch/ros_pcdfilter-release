@@ -1,0 +1,12 @@
+Source: ros-kinetic-pcdfilter-pa
+Section: misc
+Priority: extra
+Maintainer: Peter Weissig <wepet@hrz.tu-chemnitz.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cv-bridge, ros-kinetic-image-transport, ros-kinetic-laser-geometry, ros-kinetic-message-generation, ros-kinetic-parameter-pa, ros-kinetic-pcl-conversions, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pcdfilter-pa
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cv-bridge, ros-kinetic-image-transport, ros-kinetic-laser-geometry, ros-kinetic-message-runtime, ros-kinetic-parameter-pa, ros-kinetic-pcl-conversions, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-tf
+Description: ProAut pointcloud filter package
